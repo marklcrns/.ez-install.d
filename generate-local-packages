@@ -7,6 +7,7 @@ function _main() {
   local -a _rc_files=(
     "-m git -A 'Mark Lucernas' -d 'my-scripts.git git-lfs' -a '--depth=1' -n my-dotfiles -o '~/.dotfiles' -- https://github.com/marklcrns/.dotfiles"
     "-m git -A 'Mark Lucernas' -d 'yarn python3-venv neovim pandoc' -a '--recurse-submodules' -n my-neovim-rc -o '~/.config/nvim' -- https://github.com/marklcrns/nvim-config"
+    "-m git -A 'Mark Lucernas' -d 'my-neovim-rc' -n my-vim-sessions -o '~/.cache/vim/session' -- https://github.com/marklcrns/vim-sessions-cache"
     "-m git -A 'Mark Lucernas' -d 'taskwarrior' -a '--depth=1' -n my-taskwarrior-rc -o '~/.task' -- https://github.com/marklcrns/.task"
     "-m git -A 'Mark Lucernas' -d 'timewarrior' -a '--depth=1' -n my-timewarrior-rc -o '~/.timewarrior' -- https://github.com/marklcrns/.timewarrior"
     "-m git -A 'Mark Lucernas' -d 'tmuxinator' -a '--depth=1' -n my-tmuxinator-rc -o '~/.tmuxinator' -- https://github.com/marklcrns/.tmuxinator"
