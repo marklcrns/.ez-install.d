@@ -5,10 +5,10 @@
 # package: my-wiki
 # executable: 
 # package-manager: git
-# dependency: git-lfs
+# dependency: my-neovim-rc.git git-lfs
 # as-root: false
 # author: Mark Lucernas
-# date: 2022-09-04
+# date: 2022-09-03
 # ---
 ################################################################################
 

@@ -5,10 +5,10 @@
 # package: my-vim-sessions
 # executable: 
 # package-manager: git
-# dependency: my-neovim-rc
+# dependency: my-neovim-rc.git
 # as-root: false
 # author: Mark Lucernas
-# date: 2022-09-04
+# date: 2022-09-03
 # ---
 ################################################################################
 
