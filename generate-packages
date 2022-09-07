@@ -110,6 +110,7 @@ function _main() {
     "-s -c fontforge fontforge"
     "-s -c tree tree"
     "-s -c xclip xclip"
+    "-s -c tldr tldr"
     "-s -c xdg-open xdg-utils"
     "-s -c fdfind fd-find"
     "-s -c mlocate mlocate"
