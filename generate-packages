@@ -175,6 +175,7 @@ function _main() {
     "-s libxmu-dev"
     "-s libxi-dev"
     "-s libfontconfig1-dev"
+    "-s latexmk"
     "-s -d pandoc pandoc-data"
     "-s -d pandoc texlive"
     "-s -c colordiff colordiff"
