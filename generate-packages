@@ -179,6 +179,7 @@ function _main() {
     "-s latexmk"
     "-s -d pandoc pandoc-data"
     "-s -d pandoc texlive"
+    "-s -d texlive texlive-xetex"
     "-s -c colordiff colordiff"
     "-s -c cmatrix cmatrix"
     "-s -c cowsay cowsay"
