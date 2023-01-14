@@ -212,7 +212,7 @@ function _main() {
 		"-s -m apt -d bashtop.apt-add -c bashtop bashtop"
 		"-s -m apt-add -n lazygit ppa:lazygit-team/release"
 		"-s -m apt -d lazygit.apt-add -c lazygit lazygit"
-		"-m local -c node nodejs"
+		"-m local -d nvm.curl -c node nodejs"
 	)
 
 	local -a _test=(
