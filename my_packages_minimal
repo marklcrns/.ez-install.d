@@ -67,7 +67,7 @@ ez install -y \
 	"rclone#root" \
 	"fzf" \
 	"firefox#root" \
-	"docker-stable#root" \
+	"docker.io#root" \
 	"pandoc#root" \
 	"pandoc-data#root,nodep" \
 	"texlive#root,nodep" \
