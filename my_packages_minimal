@@ -29,9 +29,9 @@ ez install -y \
 	'nodejs' \
 	'zsh#root' \
 	'oh-my-zsh' \
-	'zsh-autosuggestions' \
-	'zsh-syntax-highlighting' \
-	'powerlevel10k' \
+	'zsh-autosuggestions#nodep' \
+	'zsh-syntax-highlighting#nodep' \
+	'powerlevel10k#nodep' \
 	'tmux#root' \
 	'tmuxinator#root' \
 	'gawk#root' \
@@ -64,7 +64,6 @@ ez install -y \
 	"htop#root" \
 	"neomutt#root" \
 	'trash-cli#root' \
-	"rclone#root" \
 	"fzf" \
 	"firefox#root" \
 	"docker.io#root" \
