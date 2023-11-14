@@ -20,18 +20,18 @@ ez install -y \
 	'python3-dev#root' \
 	'python3-pip#root' \
 	'python3-venv#root' \
-	'wheel.pip3#nodep' \
-	'pipenv.pip3#nodep' \
-	'virtualenv.pip3#nodep' \
-	'Send2Trash.pip3#nodep' \
-	'yarn.npm#nodep' \
+	'wheel.pip3' \
+	'pipenv.pip3' \
+	'virtualenv.pip3' \
+	'Send2Trash.pip3' \
+	'yarn.npm' \
 	'nvm' \
 	'nodejs' \
 	'zsh#root' \
-	'oh-my-zsh#nodep' \
-	'zsh-autosuggestions#nodep' \
-	'zsh-syntax-highlighting#nodep' \
-	'powerlevel10k#nodep' \
+	'oh-my-zsh' \
+	'zsh-autosuggestions' \
+	'zsh-syntax-highlighting' \
+	'powerlevel10k' \
 	'tmux#root' \
 	'tmuxinator#root' \
 	'gawk#root' \
@@ -50,8 +50,8 @@ ez install -y \
 	"mediainfo#root" \
 	"mupdf#root" \
 	"mupdf-tools#root" \
-	"neovim-stable.apt#root" \
-	"neovim.npm#nodep" \
+	"neovim-unstable.apt#root" \
+	"neovim.npm" \
 	"tree#root" \
 	"xclip#root" \
 	"xdg-utils#root" \
@@ -69,6 +69,6 @@ ez install -y \
 	"firefox#root" \
 	"docker.io#root" \
 	"pandoc#root" \
-	"pandoc-data#root,nodep" \
-	"texlive#root,nodep" \
+	"pandoc-data#root" \
+	"texlive#root" \
 	"bat#root"
