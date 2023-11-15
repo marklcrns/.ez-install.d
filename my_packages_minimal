@@ -27,6 +27,7 @@ ez install -y \
 	'yarn.npm' \
 	'nvm' \
 	'nodejs' \
+	'cargo' \
 	'zsh#root' \
 	'oh-my-zsh' \
 	'zsh-autosuggestions#nodep' \
