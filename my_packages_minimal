@@ -10,6 +10,8 @@ ez install -y \
 	'zip#root' \
 	'unzip#root' \
 	'unar#root' \
+	'git#root' \
+	'gh#root' \
 	'git-lfs#root' \
 	'gnupg2#root' \
 	'net-tools#root' \
